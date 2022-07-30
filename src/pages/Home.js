@@ -17,20 +17,22 @@ class Home extends React.Component {
                     <li><a href="#Diet">Diet</a></li>
                     <li><a href="#Report">Report</a></li>
                     <li><a href='#About'>About</a></li>
+                    
+            
                 </ul>
-  
-                <div class="rightNav">
-                    <input type="text" name="search" id="search" />
-                    <button class="btn btn-primary navbar-btn">Search</button>
+                <ul class="nav navbar-nav navbar-right"></ul>
+                <div className="button">
+                <a href="/Signin" ><button className="m-2 btn login" >Login</button></a>
                 </div>
                 </nav>
                 <div
         className="body"
         style={{
-          backgroundImage: `url("/2.jpg")`,
+          backgroundImage: `url("/2.jpg")`
+        
         }}
       ></div>
-                </div>
+      </div>
  ) }
 }
 export default Home;

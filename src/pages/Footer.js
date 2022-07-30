@@ -6,7 +6,7 @@ class Footer extends React.Component {
       <footer id="footerId1" className="text-center mt-5 ">
         <p>
           <a href="/about.html" title="about us">
-            {" "}
+           {" "}
             Contact US
           </a>{" "}
           <br />
@@ -38,12 +38,12 @@ class Footer extends React.Component {
           <br />
           <span title="mobile Number">
             <i className="fa fa-mobile" aria-hidden="true"></i> Helpline : +91
-            7981697784
+            8499839465
           </span>
           <br />
           <span title="Mail id">
             <i className="fa fa-envelope" aria-hidden="true"></i> Gmail Id :
-            rakeshgangasani007@gmail.com
+            trivedhkarla1999@gmail.com
           </span>
         </p>
       </footer>

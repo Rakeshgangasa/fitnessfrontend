@@ -54,15 +54,15 @@ class Signup extends React.Component {
     }
     onchangeSubmit=(event)=>{
       this.props.history.push('/')
-    }
-     /* onchangeSubmit=(event)=>{
+    } 
+      onchangeSubmit=(event)=>{
         console.log("its running");
         let databody = {
           message: this.state.val,
         };
         console.log(" the message is :" + databody.message);
         console.log(" the message is :" + this.state.val);
-        return fetch("http://localhost:8090/user", {
+        return fetch("http://localhost:9091/user/adduser", {
           method: "POST",
           body: JSON.stringify(databody),
           headers: {
@@ -73,7 +73,7 @@ class Signup extends React.Component {
           .then((data) =>{ console.log(data);
           this.props.history.push('/');})
 
-      }; */
+      }; 
     
   render() {
     return (
@@ -84,7 +84,6 @@ class Signup extends React.Component {
         }}
       >
         <Header />
-
         <form className="forms1">
           <h1 className="head1 p-5" title="Enter fields">
             Create New account

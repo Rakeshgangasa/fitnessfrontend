@@ -6,11 +6,11 @@ class Header extends React.Component {
       <div className=" heading gap bg-success link text-white text-center  ">
         <header>
           <div>
-           {/*  <h1>
+             {/* { <h1>
               FITNESS TRACKER
-            </h1> */}
+            </h1>  } */}
           </div>
-        </header>
+          </header>
       </div>
     );
   }
